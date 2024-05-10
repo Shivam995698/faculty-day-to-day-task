@@ -1,0 +1,4 @@
+
+{
+    "cmd": ["start", "chrome", "$index.php"]
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!-- saved from url=(0044)http://localhost/tms/includes/user_login.php -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FTMS_LOGIN</title>
+    <script src="./FTMS_LOGIN_files/jquery_latest.js.download"></script>
+    <link rel="stylesheet" type="text/css" href="./FTMS_LOGIN_files/bootstrap.min.css">
+    <script src="./FTMS_LOGIN_files/bootstrap.min.js.download"></script> 
+    <link rel="stylesheet" type="text/css" href="./FTMS_LOGIN_files/style2.css">
+</head>
+<body>
+    <!-- <center><div class="row"></center>
+        <div class="col-md-3 m-auto" id="login_home_page">
+            <center><h3 style="background-color:#5A8F7B; padding:5px; width:15vw;">User Login</h3></center>
+            <form action="" method="post">
+                <div class='form-group'>
+                   <center> <input type='email' name="Email" class="form-control"  placeholder="Enter your email id" style="margin: bottom 3px;; width:28vh; height:4vh" required></center><br/>
+                </div>
+                <div class='form-group'>
+                    <center><input type='password' name="Password" class="form-control"  placeholder="Enter your password" style="margin: bottom 4px;; width:28vh ;height:4vh" required><br/></center>
+                </div>
+                <div class="form-group">
+                   <center><input type='submit' name="userLogin" value='Login' class='btn btn-warning' style=" width:13vh; height:3vh"></center>
+                </div>
+</form> -->
+<!-- <a href="index.html" class="btn btn-danger" style="margin-top: 2vh;">Go to the home page</a>
+    </div>
+</div> -->
+
+<div class="container">
+        <div class="box form-box">
+            <!-- <br />
+<b>Warning</b>:  include(../php/config.php): Failed to open stream: No such file or directory in <b>C:\xampp\htdocs\tms\includes\user_login.php</b> on line <b>56</b><br />
+<br />
+<b>Warning</b>:  include(): Failed opening '../php/config.php' for inclusion (include_path='C:\xampp\php\PEAR') in <b>C:\xampp\htdocs\tms\includes\user_login.php</b> on line <b>56</b><br />
+ -->
+            <header>Login</header>
+            <form action="http://localhost/tms/includes/user_login.php" method="post">
+                <div class="field input">
+                    <label for="email">Email</label>
+                    <input type="text" name="Email" id="email" autocomplete="off" required="">
+                </div>
+
+                <div class="field input">
+                    <label for="password">Password</label>
+                    <input type="password" name="Password" id="password" autocomplete="off" required="">
+                </div>
+
+                <div class="field">
+                    
+                    <input type="submit" class="btn" name="userLogin" value="Login" required="">
+                </div>
+                <div class="links">
+                    Don't have account? <a href="http://localhost/tms/includes/register.php">Sign Up Now</a>
+                </div>
+            </form>
+        </div>
+              </div>
+
+</body></html>

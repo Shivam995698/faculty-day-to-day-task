@@ -1,0 +1,38 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family:poppins;
+
+
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    height:  7vh;
+    justify-content: space-around;
+
+    background-color: yellow;
+    color:black;
+}
+
+header div.sign-in-up{
+    background-color: yellow;
+    font-size: 20px;
+    font-weight: 550;
+    padding: 4px 12px;
+    /* border: 2px solid black; */
+    border-radius: 7px;
+    outline: none;
+    margin-left:10vh;
+    display: inline;
+    display: flex;
+    justify-content ;
+}
+
+header div.sign-in-up button:last-child{
+background-color: green;
+}
